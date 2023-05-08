@@ -138,3 +138,7 @@
 - The RestApi's are tested by using ___Postman___ which is a client used to test our Api's.
 - The data's were stored in the ___MySQL database___ which is ___persistent database___.
 
+![image](https://user-images.githubusercontent.com/112794922/236763188-faa77bf1-a370-4f0d-b805-89ed040a1b10.png)
+![image](https://user-images.githubusercontent.com/112794922/236763218-12623cbe-fbfe-4fff-8f9c-4372813fde59.png)
+
+
