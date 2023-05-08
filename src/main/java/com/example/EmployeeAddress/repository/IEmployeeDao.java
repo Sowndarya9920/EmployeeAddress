@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IEmployeeDao extends JpaRepository<Employee, Long> {
     @Modifying
-    @Query(value = "update employee set address= :address where id= :id ",nativeQuery = true)
-    public void updateEmployee(Long id,String address);
+    @Query(value = "update employee set lName= :lName where id= :id ",nativeQuery = true)
+    public void updateEmployee(Long id,String lName);
 }

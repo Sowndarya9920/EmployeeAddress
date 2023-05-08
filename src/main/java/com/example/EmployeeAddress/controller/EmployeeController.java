@@ -26,9 +26,9 @@ public class EmployeeController {
         empService.addEmployee(employee);
     }
 
-    @PutMapping(value = "/updateEmployee/{id}/{address}")
-    public void updateEmployee(@PathVariable Long id,@PathVariable String address){
-        empService.updateEmployee(id,address);
+    @PutMapping(value = "/updateEmployee/{id}/{lName}")
+    public void updateEmployee(@PathVariable Long id,@PathVariable String lName){
+        empService.updateEmployee(id,lName);
     }
 
     @DeleteMapping(value = "/deleteById/{id}")

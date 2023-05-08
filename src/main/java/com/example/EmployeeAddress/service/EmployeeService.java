@@ -25,8 +25,8 @@ public class EmployeeService {
         empDao.save(employee);
     }
     @Transactional
-    public void updateEmployee(Long id, String address) {
-        empDao.updateEmployee(id , address);
+    public void updateEmployee(Long id, String lName) {
+        empDao.updateEmployee(id , lName);
 
     }
 
