@@ -62,7 +62,7 @@
 #### ***Update Employee By Last Name***
 
 ```http
-  http://localhost:8080/updateEmployee/{id}/{lname}
+  http://localhost:8080/updateEmployee/{id}/{lName}
 ```
 
 #### ***Delete By Id***
